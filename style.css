@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+
+
+
+*{
+  font-family: 'Nunito' sans-serif;
+    margin: 0;padding: 0;
+   
+    text-decoration: none;
+    outline: 0;border: 0;
+    text-transform: capitalize;
+
+}
+
+
+header{
+    position:fixed;
+    top: 0;left: 0;right: 0;
+    background:#fff;
+    padding: 0.5rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow:var(box-shadow);
+
+}
+
+header .logo{
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+header .logo i{
+    color: #ee2761;
+}
+
+.hero-btn{
+display: inline-block;
+text-decoration: none;
+background: #ee2761;
+color: #fff;
+font-size:1rem;
+padding: 10px 19px;
+position: relative;
+font-weight: 700;
+font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-right: 5px;
+}
+.button{
+    color: #ee2761;
+    padding: 1rem;
+    text-decoration: none;
+    background:transparent;
+    font-size: 1.2rem;
+}
+.wrapper{
+   height: 100vh;
+    width: 100%;
+    background: url(./images/springBanner-min.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.center{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+}
+.center h1{
+    font-size:4rem;
+    font-weight: 400;
+    line-height: 1.23;
+    margin: 0 8px;
+    font-family: "DM Sans", sans-serif;
+    text-transform:initial;
+}
+.center p{
+    margin: 3rem auto;
+    font-size: 1.4rem;
+    font-family: "inter",sans-serif;
+    color: #fff;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    font-size: 1.5rem;
+    border: none;
+    padding: 19px;
+    font-weight: 400;
+font-family: "inter",sans-serif;
+}
+ .contain{
+    height: 480px;
+    background-image:url(./images/searchProducts.png);
+    background-repeat: no-repeat;
+    background-color: #EDEFF3;
+    background-size:38vw;
+    background-position: 95% center;
+      -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin: 3rem;    
+    z-index: 0;
+} 
+.hero{
+    padding-top: 11rem;
+    padding-left: 5rem;
+}
+.hero h1{
+    font-size: 3.8rem;
+    line-height: 5rem;
+    font-weight: 900;
+    font-family: "GT Haptik" ,"Helvetica Neue" , Helvetica,Arial, sans-serif;
+    text-transform: none;
+}
+.dis-btn{
+    display: inline-block;
+    text-decoration: none;
+    background:#ee2761;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 25px 10px;
+    position: relative;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 2.5rem;
+}
+.container{
+width: 93.70%;
+    display: block;
+    position: absolute;
+    padding: 2rem 0;
+    background: black;
+margin-top:2.5rem;
+
+}
+.heroien{
+     text-align: center;
+    justify-content: center;
+    display: inline;
+    text-decoration: none;
+    transform: none;
+    font-family: "inter" , sans-serif;
+}
+.heroien h1{
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-right: 2em;
+
+}
+.pro-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    font-size: 1rem;
+    font-size: 500;
+    border: none;
+    padding: 19px;
+    font-family: "inter",sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+}
+.product{
+    padding-top: 6.5rem;
+    
+}
+.shirt{
+    text-align: left;
+    width: auto;
+    display: inline-block;
+}
+.shirt h1{
+    color:#0a0918;
+    margin-left: 2.9rem;
+    font-weight: 500;
+    font-family: "DM Sans",sans-serif;
+}
+.campaing{
+   display: flex;
+   width:100%;
+   margin:0 auto;
+}
+.white{
+    width: 24%;
+}
+    
+.black{
+    width: 24%;
+    
+}
+.yellow{
+    width: 24%;
+}
+.black-cat{
+    width: 24%;
+    
+}
+.white img {
+    width: 100%;
+    background-size: cover;
+}
+    
+.black img{
+    width: 100%;
+    background-size:cover;
+}
+.yellow img{
+    width: 100%;
+    background-size: cover;
+}
+.black-cat img{
+    width: 100%;
+    background-size: cover;
+}
+.white1{
+    padding-top: 3rem;
+    color: #0a0918;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.white2{
+    padding: 0 8em;
+    padding-top: 5rem;
+    color: #0a0918;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.white3{
+    text-align: center;
+    min-height: 0.9375rem;
+    line-height: 0.9375rem;
+    padding-top:0.3rem;
+    font-size:0.8em ;
+    text-transform: none;
+    font-family: "DM Sans",sans-serif;
+    color: #6a6f72;
+}
+.product-block{
+    margin-bottom: 1.5625rem;
+}
+.block{
+    padding: 3.5rem;
+}
+.block h2{
+    font-weight: 500;
+    font-family: "DM Sans",sans-serif;
+    color: #0a0918;
+    margin: 0;
+    font-size: 1.75rem;
+
+}
+.product-main{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin: 1em 2rem 0;
+}
+.product1{
+    width: 23%;
+    padding: 1em 0.5em;
+}
+.product2{
+    width: 23%;
+    padding: 1em 0.5em;
+}
+.product3{
+    width: 23%;
+    padding: 1em 0.5em;
+}
+.product4{
+    width: 23%;
+    padding: 1em 0.5em;
+}
+.product1 img{
+    width: 100%;
+    background-size: cover;
+}
+.product2 img{
+    width: 100%;
+    background-size: cover;
+}
+.product3 img{
+    width: 100%;
+    background-size: cover;
+}
+.product4 img{
+    width: 100%;
+    background-size: cover;
+}
+.product-name{
+    padding-top: 2rem;
+    font-size:0.9375em;
+    color:#0a0918;
+    text-align: center;
+    font-weight:bold;
+    font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.product-name1{
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: none;
+    color: #6a6f72;
+    padding: 0.5rem;
+    
+}
+.atheletics{
+    margin-top: 0.9375rem;
+    margin-bottom: 2.0625rem;
+    position: relative;
+    padding: 3.5rem;
+}
+.atheletics img{
+    border-radius: 0.125rem;
+    width: 100%;
+}
+.created{
+    width: 100%;
+
+}
+
+.created1{
+    padding-left: 3rem;
+    width: auto;
+}
+.created1 h2{
+    color: #0a0918;
+    font-size: 1.75rem;
+    margin: 0;
+    font-weight: 900;
+    font-family:"GT Haptik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.created-post{
+    display: flex;
+    width: 100%;
+    margin:1em 2rem 0;
+}
+.created-2{
+    width: 30%;
+    padding: 0.7rem;
+}
+.created-3{
+     width: 30%;
+     padding: 0.7rem;
+    }
+ .created-4{
+    width: 30%;
+    padding: 0.7rem;
+  }
+  
+  .created-2 img{
+    width:100%;
+}
+.created-3 img{
+     width:100%;
+    }
+ .created-4 img{
+    width:100%;
+  }
+  .trending{
+    width: 100%;
+  }
+  .trending1{
+    padding: 3rem;
+    width: auto;
+    padding-top: 5rem;
+  }
+  .trending1 h2{
+    color: #0a0918;
+    font-size: 1.75rem;
+    font-weight: 540;
+    font-family: "DM Sans",sans-serif;
+    margin: 0;
+  }
+  
+  .shopping{
+    display: flex;
+    width: 100%;
+    margin: 1em 2rem 0;
+  }
+  .shop1{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .shop2{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .shop3{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .shop4{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .shop1 img{
+    width: 100%;
+  }
+  .shop2 img{
+    width: 100%;
+  }
+  .shop3 img{
+    width: 100%;
+  }
+  .shop4 img{
+    width: 100%;
+  }
+  .shopname{
+    text-align: center;
+    color: #0a0918;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    text-transform: none;
+    font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1.5;
+padding-top: 2.5rem;
+  }
+  .shopname1{
+    text-align: center;
+    color: #6a6f72;
+    font-size: 0.8em;
+    text-transform: none;
+    padding: 0.5rem;
+  }
+  .features{
+    width: 100%;
+  }
+  .features1{
+    width: auto;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+  .features1 h2{
+    color: #0a0918;
+    font-size:1.75rem ;
+    font-family: "GT Haptik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+  }
+  .featuresname{
+    display: flex;
+    width: 100%;
+    margin: 1em 2rem 0;
+  }
+  .featured1{
+    width: 30%;
+    padding: 0.8rem;
+  }
+  .featured2{
+    width: 30%;
+    padding: 0.8rem;
+  }
+  .featured3{
+    width: 30%;
+    padding: 0.8rem;
+  }
+  .featured1 img{
+    width: 100%;
+  }
+  .featured2 img{
+    width: 100%;
+  }
+  .featured3 img{
+    width: 100%;
+  }
+  .leggings{
+    width: 100%;
+  }
+  .legging{
+    width: auto;
+    padding: 3rem;
+  }
+  .legging h2{
+    color: #0a0918;
+    font-weight: bold;
+    font-family: "DM Sans",sans-serif;
+    margin: 0;
+    font-size: 1.75rem;
+  }
+  .leggingsname{
+    display: flex;
+    width: 100%;
+    margin:1em 3rem;
+  }
+  .leg1{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .leg2{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .leg3{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .leg4{
+    width: 22%;
+    padding: 0.5rem;
+  }
+  .leg1 img{
+    width: 100%;
+  }
+  .leg2 img{
+    width: 100%;
+  }
+  .leg3 img{
+    width: 100%;
+  }
+  .leg4 img{
+    width: 100%;
+  }
+  .leggingtag{
+    color: #0a0918;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    font-weight: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 2rem;
+  }
+  .laggingtag1{
+    color: #6a6f72;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.3rem;
+    text-transform: none;
+    font-family: "DM Sans",sans-serif;
+  }
+  .started{
+    margin-top: 0.9375rem;
+    margin-bottom:4.0625rem;
+    position: relative;
+    padding: 3rem;
+  }
+  .started img{
+    width: 100%;
+  }
+  .spring{
+    display: flex;
+  width: 100%;
+  padding-left: 3rem;
+  
+  }
+  .spring1{
+    width: 65%;
+    height: 30rem;
+    background-image: url(./images/start.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+margin-right:1.5rem;
+  }
+
+.spring2{
+  width: 100%;
+  height: 30rem;
+  background-image: url(./images/start1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+margin-right: 5rem;
+}
+.tagname{
+  margin-top: 13.5rem;
+  font-size: 1.6rem;
+}
+.tagname h1{
+  color: #EDEFF3;
+  font-weight: 500;
+  font-family:"DM Sans",sans-serif;
+  text-transform: none;
+  margin-left: 2.5rem;
+}
+.button-btn{
+  display: inline-block;
+  color: black;
+  background: #fff;
+  font-size: 1rem;
+  border: none;
+  padding:1.5rem;
+font-family: "inter",sans-serif;
+font-weight: 500;
+margin-left: 4rem;
+margin-top: 2rem;
+}
+.tagname1{
+  margin-top: 13.5rem;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.tagname1 h1{
+  color: #EDEFF3;
+  font-weight: 500;
+  font-family:"DM Sans",sans-serif;
+  text-transform: none;
+  margin-left: 2.5rem;
+}
+.button-btn1{
+  display: inline-block;
+  color: black;
+  background: #fff;
+  font-size: 1rem;
+  border: none;
+  padding:1.5rem;
+font-family: "inter",sans-serif;
+font-weight: 500;
+margin-left: 4rem;
+margin-top: 2rem;
+}
